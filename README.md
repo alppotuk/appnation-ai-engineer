@@ -40,6 +40,8 @@ Once these steps are completed, you are ready to use the workflow.
 You can upload your images using the "Load Image" node and then press "Queue Prompt." You can expect your output image in Van Gogh style to appear at the "Save Image" node.
 
 ## Workflow Explanation
+Before the explanation here is a screenshot of the whole workflow:
+![ss](https://github.com/user-attachments/assets/af2adf8e-ce23-4f47-aef6-a9795027b9e1)
 
 ControlNets allow us to condition diffusion models in specific ways. In this case, I used various preprocessors to extract information from the input image and use it for conditioning. Prompt conditions were used to apply Van Gogh style conditioning.
 
@@ -53,12 +55,8 @@ I experimented with various prompts to see their impact on the output image and 
 
 ## Results
 Here is some output examples with their original images:
-![me](https://github.com/user-attachments/assets/3c146cb6-6368-4621-ab55-fbd217895a42)
-![ComfyUI_00076_](https://github.com/user-attachments/assets/33cfa5e3-0cf1-4461-9933-dc932d007a00)
-![me2](https://github.com/user-attachments/assets/7d2cef6f-aa29-43cb-8dfd-4dcc8dec234f)
-![ComfyUI_00086_](https://github.com/user-attachments/assets/de9cac88-e80c-4c3d-a10e-4865d604486c)
-![train](https://github.com/user-attachments/assets/60a82387-befc-4e36-800b-7e72e1083213)
-![ComfyUI_00097_](https://github.com/user-attachments/assets/14d58acf-c589-4fa0-8444-ae58c1f0dbab)
-![view](https://github.com/user-attachments/assets/ba580ae6-f1b4-498a-b91f-1a7e3b3e5794)
-![ComfyUI_00102_](https://github.com/user-attachments/assets/7a748834-eb0d-43c4-bfc6-04d1b5fe311a)
+![me](https://github.com/user-attachments/assets/3c146cb6-6368-4621-ab55-fbd217895a42) ![ComfyUI_00076_](https://github.com/user-attachments/assets/33cfa5e3-0cf1-4461-9933-dc932d007a00)
+![me2](https://github.com/user-attachments/assets/7d2cef6f-aa29-43cb-8dfd-4dcc8dec234f) ![ComfyUI_00086_](https://github.com/user-attachments/assets/de9cac88-e80c-4c3d-a10e-4865d604486c)
+![train](https://github.com/user-attachments/assets/60a82387-befc-4e36-800b-7e72e1083213) ![ComfyUI_00097_](https://github.com/user-attachments/assets/14d58acf-c589-4fa0-8444-ae58c1f0dbab) 
+![view](https://github.com/user-attachments/assets/ba580ae6-f1b4-498a-b91f-1a7e3b3e5794) ![ComfyUI_00102_](https://github.com/user-attachments/assets/7a748834-eb0d-43c4-bfc6-04d1b5fe311a)
 
