@@ -52,3 +52,13 @@ I experimented with different types of preprocessors and their combinations. The
 I experimented with various prompts to see their impact on the output image and how closely I could achieve a Van Gogh style with descriptive adjectives. Although the prompt influenced the result, the impact was not significant. Therefore, I increased the CFG value on the K Sampler to make my conditioning stronger. CFG (Classifier Free Guidance) determines how closely the output fits to positive conditioning and differs from negative conditioning. Increasing the CFG to 12 significantly improved the results, achieving the desired effect.
 
 ## Results
+Here is some output examples with their original images:
+![me](https://github.com/user-attachments/assets/3c146cb6-6368-4621-ab55-fbd217895a42)
+![ComfyUI_00076_](https://github.com/user-attachments/assets/33cfa5e3-0cf1-4461-9933-dc932d007a00)
+![me2](https://github.com/user-attachments/assets/7d2cef6f-aa29-43cb-8dfd-4dcc8dec234f)
+![ComfyUI_00086_](https://github.com/user-attachments/assets/de9cac88-e80c-4c3d-a10e-4865d604486c)
+![train](https://github.com/user-attachments/assets/60a82387-befc-4e36-800b-7e72e1083213)
+![ComfyUI_00097_](https://github.com/user-attachments/assets/14d58acf-c589-4fa0-8444-ae58c1f0dbab)
+![view](https://github.com/user-attachments/assets/ba580ae6-f1b4-498a-b91f-1a7e3b3e5794)
+![ComfyUI_00102_](https://github.com/user-attachments/assets/7a748834-eb0d-43c4-bfc6-04d1b5fe311a)
+
